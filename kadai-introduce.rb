@@ -1,9 +1,9 @@
-str1 = family_name = '前山'
-str2 = name = '武志'
-str3 = 'です。'
+family_name = '前山'
+name = '武志'
+str = 'です。'
 
 num = 22
 str = '歳です。'
-str4 = num.to_s + str
+num.to_s
 
-puts str1 + str2 + str3 + str4
+puts family_name + name + str + num.to_s + str  
